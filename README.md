@@ -35,7 +35,8 @@ The RBS grammar can be installed with Emacs tree-sitter support, for example:
 ## Status
 
 This project is still small and experimental. At the moment it provides the
-`rbs-ts-mode` major mode and tree-sitter-backed comment highlighting while
+`rbs-ts-mode` major mode and basic tree-sitter-backed highlighting for
+comments, declarations, types, constants, variables, and keywords while
 continuing to rely on `rbs-mode` for the rest of the editing behavior.
 
 ## License
